@@ -5,7 +5,7 @@ services:
       - back-net
     environment:
       - FLASK_APP=app.main
-      - DB_PATH=/tmp/app.db
+      - DB_PATH=/data/app.db
     volumes:
       - dbdata:/data
     healthcheck:
